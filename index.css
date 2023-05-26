@@ -1,0 +1,66 @@
+Header {
+    display: flex;
+    justify-content: space-between;
+}
+Header button {
+    border: none;
+    background: white;
+    cursor: pointer;
+}
+Header img{
+    height: 40px;
+    width: 40px;
+    transition: 0.2s ease-in;
+}
+Header img:hover{
+    height: 43px;
+    width: 43px;
+}
+#inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 88vh;
+}
+#word {
+    display: flex;
+    flex-wrap: wrap;
+    height: 21rem;
+    width: 21.1rem;
+    margin-left: 45px;
+}
+#word .word-box {
+    border: 2px solid #e2e8f0;
+    border-radius: 9px;
+    font-size: 2rem;
+    font-weight: 600;
+    height: 45px;
+    text-align: center;
+    width: 52px;
+    margin-left: 3px;
+    padding-top: 4px;
+}
+#keyboard {
+    /* border: 1px solid red; */
+    height: 157px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 26.3rem;
+}
+#keyboard button {
+    height: 40px;
+    width: 38px;
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 3px;
+    background-color: #e2e8f0ff;
+    border : none;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+    color: #ff4f4f;
+}
+#keyboard button:hover {
+    background-color: #94a3b8;
+}
