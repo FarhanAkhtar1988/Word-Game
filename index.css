@@ -41,6 +41,14 @@ Header img:hover{
     margin-left: 3px;
     padding-top: 4px;
 }
+
+#stats {
+    display: flex;
+    justify-content: space-between;
+    width: 25rem;
+    height: 24px;
+    align-items: center;
+}
 #keyboard {
     /* border: 1px solid red; */
     height: 157px;

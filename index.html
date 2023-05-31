@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -51,6 +52,12 @@
                 <div class="word-box"></div>
             </div>
 
+             <div id="stats">
+                <h3 id="tries"></h3>
+                <h3 id="success"></h3>
+                <h3 id="percent"></h3>
+            </div>
+
             <div id="keyboard">
                 <button class="keyboard-box" data-value="Q">Q</button>
                 <button class="keyboard-box" data-value="W">W</button>
@@ -82,7 +89,7 @@
                 <button style="width: 55px;" class="keyboard-box" data-value="Delete">Delete</button>
             </div>
         </div>
-
+           
     </div>
     
     <script src="/index.js"></script>
